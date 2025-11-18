@@ -22,7 +22,10 @@ python -m venv venv
 .\venv\Scripts\activate
 ```
 ### 3. Instalar las dependencias
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Ejecutar el script
+```bash
 pytest -v test_posts.py
+```
